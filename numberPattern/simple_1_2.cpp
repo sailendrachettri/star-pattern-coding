@@ -4,11 +4,12 @@ using namespace std;
 int main()
 {
     int num = 5;
-    for (int i = 1; i <= num; i++)
+    int p = 1;
+    for (int i = 0; i < num; i++)
     {
-        for (int j = 1; j <= i; j++)
+        for (int j = 0; j < i + 1; j++)
         {
-            cout << j << " ";
+            cout << p++ << " ";
         }
         cout << endl;
     }
